@@ -1,0 +1,2266 @@
+!SESSION 2019-09-08 22:36:22.842 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180611-0500
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product -data C:\Users\Kyle Maiorana\Desktop\tirslk_maze_1_00_01\tirslk_maze_1_00_00 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.egit.core 2 0 2019-09-08 22:36:25.150
+!MESSAGE Builtin LFS support not present/detected
+!STACK 0
+java.lang.ClassNotFoundException: org.eclipse.jgit.lfs.BuiltinLFS cannot be found by org.eclipse.egit.core_5.0.0.201806131550-r
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:508)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:411)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.eclipse.egit.core.Activator.registerBuiltinLFS(Activator.java:279)
+	at org.eclipse.egit.core.Activator.start(Activator.java:212)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1002)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:354)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:114)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:505)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:392)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:454)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:411)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.egit.ui.Activator$RepositoryChangeScanner.<init>(Activator.java:921)
+	at org.eclipse.egit.ui.Activator.setupRepoChangeScanner(Activator.java:1034)
+	at org.eclipse.egit.ui.Activator.start(Activator.java:336)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1002)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:354)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:114)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:505)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:392)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:470)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:411)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:609)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:177)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:931)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:60)
+	at org.eclipse.ui.internal.services.WorkbenchServiceRegistry.getSourceProviders(WorkbenchServiceRegistry.java:174)
+	at org.eclipse.ui.internal.services.SourceProviderService.readRegistry(SourceProviderService.java:104)
+	at org.eclipse.ui.internal.Workbench$34.runWithException(Workbench.java:2378)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:32)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:144)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4567)
+	at org.eclipse.ui.internal.StartupThreading.runWithoutExceptions(StartupThreading.java:95)
+	at org.eclipse.ui.internal.Workbench.initializeDefaultServices(Workbench.java:2373)
+	at org.eclipse.ui.internal.Workbench.init(Workbench.java:1654)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2859)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+
+!ENTRY com.ti.common.core 1 0 2019-09-08 22:36:25.915
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2019-09-08 22:36:25.922
+!MESSAGE debugServerDir=C:/ti/ccs910/ccs/ccs_base/DebugServer
+
+!ENTRY org.eclipse.equinox.event 4 0 2019-09-08 22:36:28.902
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=org/eclipse/e4/ui/model/application/ApplicationElement/tags/ADD] {ChangedElement=org.eclipse.e4.primaryDataStack=org.eclipse.e4.ui.model.application.ui.basic.impl.PartStackImpl@669daa93 (tags: [org.eclipse.e4.primaryDataStack, EditorStack, active, Maximized], contributorURI: null) (widget: CTabFolder {}, renderer: org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer@3c538e62, toBeRendered: true, onTop: false, visible: true, containerData: null, accessibilityPhrase: null), org.eclipse.e4.data={ChangedElement=org.eclipse.e4.primaryDataStack=org.eclipse.e4.ui.model.application.ui.basic.impl.PartStackImpl@669daa93 (tags: [org.eclipse.e4.primaryDataStack, EditorStack, active, Maximized], contributorURI: null) (widget: CTabFolder {}, renderer: org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer@3c538e62, toBeRendered: true, onTop: false, visible: true, containerData: null, accessibilityPhrase: null), AttName=tags, EventType=ADD, Position=3, Widget=CTabFolder {}, NewValue=Maximized}, AttName=tags, EventType=ADD, Position=3, Widget=CTabFolder {}, NewValue=Maximized} to handler org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler@4257163f
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.IllegalArgumentException: 
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:65)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler$1.run(UIEventObjectSupplier.java:64)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:144)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4567)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:212)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:61)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:196)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:52)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.emf.ecore.util.EcoreEList.dispatchNotification(EcoreEList.java:249)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.addUnique(NotifyingListImpl.java:304)
+	at org.eclipse.emf.common.util.AbstractEList.add(AbstractEList.java:304)
+	at org.eclipse.ui.internal.WorkbenchIntroManager.setIntroStandby(WorkbenchIntroManager.java:200)
+	at org.eclipse.ui.internal.WorkbenchIntroManager.showIntro(WorkbenchIntroManager.java:138)
+	at org.eclipse.ui.application.WorkbenchWindowAdvisor.openIntro(WorkbenchWindowAdvisor.java:190)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.openIntro(IDEWorkbenchWindowAdvisor.java:572)
+	at org.eclipse.ui.internal.WorkbenchWindow.setup(WorkbenchWindow.java:782)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:1005)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:137)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:93)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.inject(ContextInjectionFactory.java:74)
+	at org.eclipse.ui.internal.Workbench.createWorkbenchWindow(Workbench.java:1507)
+	at org.eclipse.ui.internal.Workbench.getActiveWorkbenchWindow(Workbench.java:1478)
+	at com.ti.ccstudio.debug.ui.targetStatus.TargetStatusManager.addStatusBar(TargetStatusManager.java:379)
+	at com.ti.ccstudio.debug.ui.targetStatus.statusBar.TargetStatusBar.fill(TargetStatusBar.java:44)
+	at com.ti.ccstudio.debug.ui.targetStatus.statusBar.CCSStatusBar.createControl(CCSStatusBar.java:39)
+	at org.eclipse.ui.menus.WorkbenchWindowControlContribution.delegateCreateControl(WorkbenchWindowControlContribution.java:105)
+	at org.eclipse.ui.internal.menus.CompatibilityWorkbenchWindowControlContribution.construct(CompatibilityWorkbenchWindowControlContribution.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:1005)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:137)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:412)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:345)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:214)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:108)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:74)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:51)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ToolControlContribution.createControl(ToolControlContribution.java:53)
+	at org.eclipse.jface.action.ControlContribution.fill(ControlContribution.java:101)
+	at org.eclipse.jface.action.ToolBarManager.update(ToolBarManager.java:343)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ToolBarManagerRenderer.subscribeTopicUpdateToBeRendered(ToolBarManagerRenderer.java:213)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler$1.run(UIEventObjectSupplier.java:64)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:144)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4567)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:212)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:61)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:196)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:52)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setVisible(UIElementImpl.java:346)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ToolBarContributionRecord.updateVisibility(ToolBarContributionRecord.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ToolBarManagerRenderer$2.changed(ToolBarManagerRenderer.java:479)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:114)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.runAndTrack(EclipseContext.java:344)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ToolBarManagerRenderer.processAddition(ToolBarManagerRenderer.java:471)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ToolBarManagerRenderer.generateContributions(ToolBarManagerRenderer.java:447)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ToolBarManagerRenderer.processContribution(ToolBarManagerRenderer.java:416)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ToolBarManagerRenderer.createWidget(ToolBarManagerRenderer.java:376)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:1012)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:778)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:749)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:743)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:727)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.subscribeChildrenHandler(PartRenderingEngine.java:308)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler.handleEvent(EventObjectSupplier.java:88)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:196)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:52)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.emf.ecore.util.EcoreEList.dispatchNotification(EcoreEList.java:249)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.addUnique(NotifyingListImpl.java:356)
+	at org.eclipse.emf.common.util.AbstractEList.add(AbstractEList.java:340)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.processAddition(ContributionsAnalyzer.java:441)
+	at org.eclipse.e4.ui.workbench.renderers.swt.TrimBarRenderer.addTrimContributions(TrimBarRenderer.java:164)
+	at org.eclipse.e4.ui.workbench.renderers.swt.TrimBarRenderer.processContents(TrimBarRenderer.java:136)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:686)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:557)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:541)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:722)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:686)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:778)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:749)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:743)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:727)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1096)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:667)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+Caused by: java.lang.IllegalArgumentException: 
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:47)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.findElementsRecursive(ModelServiceImpl.java:160)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.findElements(ModelServiceImpl.java:411)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.findElements(ModelServiceImpl.java:397)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.getActivePerspective(ModelServiceImpl.java:976)
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.getElementsToMinimize(MinMaxAddon.java:719)
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.maximize(MinMaxAddon.java:690)
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.subscribeTopicTagsChanged(MinMaxAddon.java:381)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	... 150 more
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-09-08 22:36:29.110
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-09-08 22:36:29.112
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-09-08 22:36:29.116
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.ti.ccstudio.ui 1 0 2019-09-08 22:36:31.517
+!MESSAGE CCS IDE session started!
+	CCS build: 9.1.0.00010
+	CCS location: C:/ti/ccs910/ccs
+	Workspace location: C:/Users/Kyle Maiorana/Desktop/tirslk_maze_1_00_01/tirslk_maze_1_00_00
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-08 22:36:31.662
+!MESSAGE constructor
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-08 22:36:31.663
+!MESSAGE done with directories
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-08 22:36:31.665
+!MESSAGE loading ti_logger
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-08 22:36:31.667
+!MESSAGE Platform os: win32
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-08 22:36:31.670
+!MESSAGE loading cToolsIF
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-08 22:36:31.675
+!MESSAGE loading cTools
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-08 22:36:31.678
+!MESSAGE loading TraceFactory
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-08 22:36:31.681
+!MESSAGE loading sqlite3
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-08 22:36:31.686
+!MESSAGE loading CloudTrace
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-08 22:36:31.730
+!MESSAGE CloudTrace interface loaded
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:37:52.808
+!MESSAGE Indexed 'ADCSWTrigger' (9 sources, 24 headers) in 1.88 sec: 1,688 declarations; 3,839 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.11%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:37:53.714
+!MESSAGE Indexed 'ApplicationProcessor' (10 sources, 25 headers) in 0.899 sec: 2,105 declarations; 4,666 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.089%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:37:54.231
+!MESSAGE Indexed 'Competition' (3 sources, 31 headers) in 0.509 sec: 1,603 declarations; 2,974 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.13%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:37:54.736
+!MESSAGE Indexed 'Competition_BLE' (3 sources, 23 headers) in 0.495 sec: 1,645 declarations; 2,697 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.14%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:37:55.169
+!MESSAGE Indexed 'EdgeInterrupt' (6 sources, 13 headers) in 0.428 sec: 1,359 declarations; 3,243 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.13%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:37:55.665
+!MESSAGE Indexed 'Flash' (8 sources, 23 headers) in 0.491 sec: 1,720 declarations; 4,674 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.094%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:37:56.122
+!MESSAGE Indexed 'GPIO' (5 sources, 13 headers) in 0.451 sec: 1,348 declarations; 3,154 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.13%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:37:56.888
+!MESSAGE Indexed 'inc' (30 sources, 51 headers) in 0.756 sec: 2,909 declarations; 7,485 references; 0 unresolved inclusions; 0 syntax errors; 61 unresolved names (0.58%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:37:57.263
+!MESSAGE Indexed 'InputOutput' (3 sources, 10 headers) in 0.371 sec: 1,174 declarations; 2,677 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.16%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:37:57.804
+!MESSAGE Indexed 'Jacki' (16 sources, 30 headers) in 0.535 sec: 1,786 declarations; 3,989 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.1%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:37:58.321
+!MESSAGE Indexed 'Jacki_FSM' (15 sources, 31 headers) in 0.508 sec: 2,339 declarations; 5,368 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.078%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:37:58.594
+!MESSAGE Indexed 'Lab03_Assembly' (2 sources, 10 headers) in 0.268 sec: 1,140 declarations; 2,348 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.17%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:37:58.871
+!MESSAGE Indexed 'Lab04_SoftwareDesign' (3 sources, 10 headers) in 0.272 sec: 1,195 declarations; 2,444 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.16%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:37:59.160
+!MESSAGE Indexed 'Lab06_GPIO' (6 sources, 15 headers) in 0.286 sec: 1,374 declarations; 3,174 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.13%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:37:59.460
+!MESSAGE Indexed 'Lab07_FSM' (6 sources, 14 headers) in 0.297 sec: 1,368 declarations; 3,236 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.13%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:37:59.818
+!MESSAGE Indexed 'Lab08_Switches_LED' (6 sources, 13 headers) in 0.353 sec: 1,379 declarations; 3,199 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.13%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:38:00.401
+!MESSAGE Indexed 'Lab09_SysTick' (8 sources, 15 headers) in 0.575 sec: 1,391 declarations; 3,282 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.13%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:38:00.945
+!MESSAGE Indexed 'Lab10_Debug' (10 sources, 18 headers) in 0.539 sec: 1,325 declarations; 3,557 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.12%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:38:01.415
+!MESSAGE Indexed 'Lab11_LCD' (5 sources, 20 headers) in 0.465 sec: 1,515 declarations; 3,246 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.13%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:38:02.185
+!MESSAGE Indexed 'Lab12_Motors' (8 sources, 15 headers) in 0.745 sec: 1,244 declarations; 2,754 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.15%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:38:02.750
+!MESSAGE Indexed 'Lab13_Timers' (11 sources, 19 headers) in 0.548 sec: 1,477 declarations; 3,417 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.12%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:38:03.203
+!MESSAGE Indexed 'Lab14_EdgeInterrupts' (14 sources, 20 headers) in 0.45 sec: 1,551 declarations; 4,213 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.1%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:38:03.625
+!MESSAGE Indexed 'Lab15_ADC' (12 sources, 27 headers) in 0.419 sec: 1,860 declarations; 4,341 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.097%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:38:04.213
+!MESSAGE Indexed 'Lab16_Tach' (16 sources, 29 headers) in 0.583 sec: 1,952 declarations; 5,190 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.084%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:38:04.912
+!MESSAGE Indexed 'Lab17_Control' (20 sources, 36 headers) in 0.693 sec: 2,149 declarations; 4,956 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.084%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:38:05.628
+!MESSAGE Indexed 'Lab18_UART' (14 sources, 30 headers) in 0.709 sec: 1,941 declarations; 4,223 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.097%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:38:06.214
+!MESSAGE Indexed 'Lab19_BLE' (18 sources, 33 headers) in 0.582 sec: 2,367 declarations; 5,436 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.077%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:38:06.560
+!MESSAGE Indexed 'LinearInterpolation_asm' (2 sources, 10 headers) in 0.34 sec: 1,140 declarations; 2,348 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.17%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:38:07.092
+!MESSAGE Indexed 'LineFollowFSM' (6 sources, 14 headers) in 0.528 sec: 1,368 declarations; 3,236 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.13%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:38:07.759
+!MESSAGE Indexed 'PeriodicSysTickInt' (7 sources, 14 headers) in 0.662 sec: 1,212 declarations; 2,683 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.15%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:38:08.288
+!MESSAGE Indexed 'PeriodMeasure' (6 sources, 13 headers) in 0.489 sec: 1,203 declarations; 2,667 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.15%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:38:08.785
+!MESSAGE Indexed 'PointerTrafficLight' (5 sources, 13 headers) in 0.457 sec: 1,354 declarations; 3,193 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.13%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:38:09.168
+!MESSAGE Indexed 'ProfileSqrt' (3 sources, 10 headers) in 0.377 sec: 1,152 declarations; 2,391 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.17%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:38:09.667
+!MESSAGE Indexed 'PWMSine' (8 sources, 15 headers) in 0.491 sec: 1,260 declarations; 2,904 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.14%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:38:10.034
+!MESSAGE Indexed 'SimpleProject_asm' (2 sources, 10 headers) in 0.361 sec: 1,140 declarations; 2,348 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.17%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:38:10.360
+!MESSAGE Indexed 'SineFunction' (3 sources, 10 headers) in 0.313 sec: 1,150 declarations; 2,388 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.17%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:38:10.722
+!MESSAGE Indexed 'Switch' (5 sources, 12 headers) in 0.356 sec: 1,169 declarations; 2,512 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.16%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:38:11.061
+!MESSAGE Indexed 'SysTick' (4 sources, 11 headers) in 0.328 sec: 1,155 declarations; 2,411 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.17%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:38:11.426
+!MESSAGE Indexed 'TExaS' (7 sources, 15 headers) in 0.359 sec: 1,382 declarations; 3,313 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.13%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:38:11.782
+!MESSAGE Indexed 'UART' (5 sources, 20 headers) in 0.351 sec: 1,587 declarations; 3,359 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.12%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:38:12.103
+!MESSAGE Indexed 'Ultrasound' (8 sources, 23 headers) in 0.317 sec: 1,588 declarations; 3,463 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.12%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-09-08 22:38:12.516
+!MESSAGE Indexed 'VerySimpleApplicationProcessor' (10 sources, 25 headers) in 0.408 sec: 2,119 declarations; 4,875 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.086%)
+!SESSION 2019-09-11 12:46:43.652 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180611-0500
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 1 0 2019-09-11 12:47:05.929
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2019-09-11 12:47:05.932
+!MESSAGE debugServerDir=C:/ti/ccs910/ccs/ccs_base/DebugServer
+
+!ENTRY org.eclipse.equinox.event 4 0 2019-09-11 12:47:17.361
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=org/eclipse/e4/ui/model/application/ApplicationElement/tags/ADD] {ChangedElement=left=org.eclipse.e4.ui.model.application.ui.basic.impl.PartStackImpl@33f17289 (tags: [active, Minimized], contributorURI: null) (widget: CTabFolder {}, renderer: org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer@3ee258, toBeRendered: true, onTop: false, visible: false, containerData: 5000, accessibilityPhrase: null), org.eclipse.e4.data={ChangedElement=left=org.eclipse.e4.ui.model.application.ui.basic.impl.PartStackImpl@33f17289 (tags: [active, Minimized], contributorURI: null) (widget: CTabFolder {}, renderer: org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer@3ee258, toBeRendered: true, onTop: false, visible: false, containerData: 5000, accessibilityPhrase: null), AttName=tags, EventType=ADD, Position=1, Widget=CTabFolder {}, NewValue=Minimized}, AttName=tags, EventType=ADD, Position=1, Widget=CTabFolder {}, NewValue=Minimized} to handler org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler@7fa86ddd
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.IllegalStateException: Application does not have an active window
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:65)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler$1.run(UIEventObjectSupplier.java:64)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:144)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4567)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:212)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:61)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:196)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:52)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.emf.ecore.util.EcoreEList.dispatchNotification(EcoreEList.java:249)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.addUnique(NotifyingListImpl.java:304)
+	at org.eclipse.emf.common.util.AbstractEList.add(AbstractEList.java:304)
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.maximize(MinMaxAddon.java:704)
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.subscribeTopicTagsChanged(MinMaxAddon.java:381)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler$1.run(UIEventObjectSupplier.java:64)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:144)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4567)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:212)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:61)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:196)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:52)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.emf.ecore.util.EcoreEList.dispatchNotification(EcoreEList.java:249)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.addUnique(NotifyingListImpl.java:304)
+	at org.eclipse.emf.common.util.AbstractEList.add(AbstractEList.java:304)
+	at org.eclipse.ui.internal.WorkbenchPage.setPartState(WorkbenchPage.java:4468)
+	at org.eclipse.ui.internal.WorkbenchPage.setPartState(WorkbenchPage.java:4441)
+	at com.ti.ccstudio.branding.internal.CCSIntroPart.standbyStateChanged(CCSIntroPart.java:164)
+	at org.eclipse.ui.internal.ViewIntroAdapterPart.lambda$1(ViewIntroAdapterPart.java:114)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:71)
+	at org.eclipse.ui.internal.ViewIntroAdapterPart.setStandby(ViewIntroAdapterPart.java:111)
+	at org.eclipse.ui.internal.ViewIntroAdapterPart.createPartControl(ViewIntroAdapterPart.java:142)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:153)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityView.createPartControl(CompatibilityView.java:147)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:364)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:1005)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:970)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:137)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:412)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:331)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:190)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:105)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:74)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:56)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:129)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:1012)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:557)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:541)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:70)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:1012)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:778)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:749)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:743)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:727)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1277)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:102)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:690)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:778)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:749)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:743)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:727)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:686)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:557)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:541)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:70)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:1012)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:778)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:749)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:743)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:727)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:137)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:686)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:778)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:749)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:743)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:727)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:137)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:686)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:778)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:749)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:743)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:727)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:137)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:686)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:778)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:749)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:743)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:727)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:137)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:686)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:778)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:749)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:743)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:727)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:137)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:686)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:778)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:749)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:743)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:727)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:48)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:686)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:778)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:749)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:743)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:727)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:79)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:102)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:61)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:690)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:778)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:749)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:743)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:727)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:137)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:686)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:778)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:749)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:743)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:727)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:700)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:686)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:778)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:749)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:743)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:727)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1096)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:667)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+Caused by: java.lang.IllegalStateException: Application does not have an active window
+	at org.eclipse.e4.ui.internal.workbench.ApplicationPartServiceImpl.getActiveWindowService(ApplicationPartServiceImpl.java:46)
+	at org.eclipse.e4.ui.internal.workbench.ApplicationPartServiceImpl.requestActivation(ApplicationPartServiceImpl.java:90)
+	at org.eclipse.e4.ui.internal.workbench.ApplicationPartServiceImpl.requestActivation(ApplicationPartServiceImpl.java:90)
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.minimize(MinMaxAddon.java:627)
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.subscribeTopicTagsChanged(MinMaxAddon.java:379)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	... 200 more
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-09-11 12:47:18.380
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-09-11 12:47:18.394
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-09-11 12:47:18.395
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.ti.ccstudio.ui 1 0 2019-09-11 12:47:27.380
+!MESSAGE CCS IDE session started!
+	CCS build: 9.1.0.00010
+	CCS location: C:/ti/ccs910/ccs
+	Workspace location: C:/Users/Kyle Maiorana/Desktop/tirslk_maze_1_00_01/tirslk_maze_1_00_00
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-11 12:47:28.049
+!MESSAGE constructor
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-11 12:47:28.050
+!MESSAGE done with directories
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-11 12:47:28.052
+!MESSAGE loading ti_logger
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-11 12:47:28.054
+!MESSAGE Platform os: win32
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-11 12:47:28.055
+!MESSAGE loading cToolsIF
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-11 12:47:28.198
+!MESSAGE loading cTools
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-11 12:47:28.445
+!MESSAGE loading TraceFactory
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-11 12:47:28.594
+!MESSAGE loading sqlite3
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-11 12:47:30.678
+!MESSAGE loading CloudTrace
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-11 12:47:31.232
+!MESSAGE CloudTrace interface loaded
+
+!ENTRY org.eclipse.equinox.p2.updatechecker 4 0 2019-09-11 12:47:43.494
+!MESSAGE Exception in update check thread
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:126)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:158)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.handleRemoteIndexFile(AbstractRepositoryManager.java:721)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadIndexFile(AbstractRepositoryManager.java:715)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:657)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:107)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:102)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:165)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:107)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:121)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:60)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:767)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:107)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:102)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:149)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:127)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:75)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 0 2019-09-11 12:47:43.498
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.metadata.repository.XZedRepository
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:414)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:375)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:102)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:158)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:402)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:132)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:57)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:77)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:60)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:767)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:107)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:102)
+	at com.ti.ccstudio.p2app.DirectorApplication.getInstallableUnits(DirectorApplication.java:1507)
+	at com.ti.ccstudio.p2app.DirectorApplication$LocationQueryable.query(DirectorApplication.java:180)
+	at org.eclipse.equinox.p2.query.CompoundQueryable.getIteratorFromQueryable(CompoundQueryable.java:174)
+	at org.eclipse.equinox.p2.query.CompoundQueryable.everything(CompoundQueryable.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.expression.RepeatableIterator$IndexProviderIterator.<init>(RepeatableIterator.java:139)
+	at org.eclipse.equinox.internal.p2.metadata.expression.RepeatableIterator.create(RepeatableIterator.java:57)
+	at org.eclipse.equinox.p2.query.ExpressionMatchQuery.perform(ExpressionMatchQuery.java:61)
+	at org.eclipse.equinox.internal.p2.metadata.index.IndexProvider.query(IndexProvider.java:23)
+	at org.eclipse.equinox.internal.p2.metadata.index.IndexProvider.query(IndexProvider.java:33)
+	at com.ti.ccstudio.p2app.DirectorApplication.collectRootIUs(DirectorApplication.java:639)
+	at com.ti.ccstudio.p2app.DirectorApplication.performList(DirectorApplication.java:1038)
+	at com.ti.ccstudio.p2app.DirectorApplication.run(DirectorApplication.java:1396)
+	at com.ti.ccstudio.p2app.DirectorApplication.listIUsFoundInRepos(DirectorApplication.java:1775)
+	at com.ti.ccstudio.app.center.p2.DirectorApplicationDelegate.listIUsFoundInRepos(DirectorApplicationDelegate.java:40)
+	at com.ti.ccstudio.app.center.p2.DirectorApplicationDelegate.resolveIU(DirectorApplicationDelegate.java:72)
+	at com.ti.ccstudio.app.center.internal.CCSAppCenter._replaceIusWithLatest(CCSAppCenter.java:391)
+	at com.ti.ccstudio.app.center.internal.CCSAppCenter.access$3(CCSAppCenter.java:358)
+	at com.ti.ccstudio.app.center.internal.CCSAppCenter$2.run(CCSAppCenter.java:234)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-09-11 12:47:43.502
+!MESSAGE An internal error occurred during: "Replace IU Job".
+!STACK 0
+java.lang.NullPointerException
+	at com.ti.ccstudio.app.center.internal.CCSAppCenter.log(CCSAppCenter.java:446)
+	at com.ti.ccstudio.app.center.internal.CCSAppCenter._replaceIusWithLatest(CCSAppCenter.java:414)
+	at com.ti.ccstudio.app.center.internal.CCSAppCenter.access$3(CCSAppCenter.java:358)
+	at com.ti.ccstudio.app.center.internal.CCSAppCenter$2.run(CCSAppCenter.java:234)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+!SESSION 2019-09-11 12:49:36.649 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180611-0500
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 1 0 2019-09-11 12:49:42.368
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2019-09-11 12:49:42.371
+!MESSAGE debugServerDir=C:/ti/ccs910/ccs/ccs_base/DebugServer
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-09-11 12:49:51.712
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-09-11 12:49:51.724
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-09-11 12:49:51.726
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.ti.ccstudio.ui 1 0 2019-09-11 12:49:56.455
+!MESSAGE CCS IDE session started!
+	CCS build: 9.1.0.00010
+	CCS location: C:/ti/ccs910/ccs
+	Workspace location: C:/Users/Kyle Maiorana/Desktop/tirslk_maze_1_00_01/tirslk_maze_1_00_00
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-11 12:49:56.693
+!MESSAGE constructor
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-11 12:49:56.694
+!MESSAGE done with directories
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-11 12:49:56.696
+!MESSAGE loading ti_logger
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-11 12:49:56.698
+!MESSAGE Platform os: win32
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-11 12:49:56.699
+!MESSAGE loading cToolsIF
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-11 12:49:56.703
+!MESSAGE loading cTools
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-11 12:49:56.707
+!MESSAGE loading TraceFactory
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-11 12:49:56.710
+!MESSAGE loading sqlite3
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-11 12:49:56.713
+!MESSAGE loading CloudTrace
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-11 12:49:56.726
+!MESSAGE CloudTrace interface loaded
+
+!ENTRY org.eclipse.ui 2 2 2019-09-11 13:11:20.560
+!MESSAGE com.ti.ccstudio.system.setup.ui.views.TargetConfigurationView: Deprecated relationship "fast" should be converted to "stack".
+!SESSION 2019-09-11 13:15:43.301 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180611-0500
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 1 0 2019-09-11 13:15:47.817
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2019-09-11 13:15:47.819
+!MESSAGE debugServerDir=C:/ti/ccs910/ccs/ccs_base/DebugServer
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-09-11 13:15:58.063
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-09-11 13:15:58.080
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-09-11 13:15:58.081
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.ti.ccstudio.ui 1 0 2019-09-11 13:15:59.728
+!MESSAGE CCS IDE session started!
+	CCS build: 9.1.0.00010
+	CCS location: C:/ti/ccs910/ccs
+	Workspace location: C:/Users/Kyle Maiorana/Desktop/tirslk_maze_1_00_01/tirslk_maze_1_00_00
+
+!ENTRY com.ti.ccstudio.debug.server 4 214294189 2019-09-11 13:15:59.844
+!MESSAGE Unexpected CCS exit detected [9/11/19 12:49 PM]!!!
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-11 13:15:59.973
+!MESSAGE constructor
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-11 13:15:59.975
+!MESSAGE done with directories
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-11 13:15:59.976
+!MESSAGE loading ti_logger
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-11 13:15:59.978
+!MESSAGE Platform os: win32
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-11 13:15:59.979
+!MESSAGE loading cToolsIF
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-11 13:16:00.009
+!MESSAGE loading cTools
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-11 13:16:00.022
+!MESSAGE loading TraceFactory
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-11 13:16:00.027
+!MESSAGE loading sqlite3
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-11 13:16:00.035
+!MESSAGE loading CloudTrace
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-11 13:16:00.053
+!MESSAGE CloudTrace interface loaded
+
+!ENTRY org.eclipse.ui 2 2 2019-09-11 13:16:35.263
+!MESSAGE com.ti.ccstudio.system.setup.ui.views.TargetConfigurationView: Deprecated relationship "fast" should be converted to "stack".
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-09-11 13:24:30.709
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Halting Target CPU: (Error -2062 @ 0x0) Unable to halt device. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-09-11 13:24:30.719
+!MESSAGE DS_ERROR: CORTEX_M4_0: GEL: Error calling OnPreFileLoaded(): Specified reset is not allowed at this time
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-09-11 13:24:31.090
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -1141 @ 0x136) Device is not responding to the request. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-09-11 13:24:33.975
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-09-11 13:24:33.987
+!MESSAGE DS_ERROR: CORTEX_M4_0: File Loader: Failed to initialize flash programming: CPU Reset error. The requested reset was aborted.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-09-11 13:24:33.995
+!MESSAGE DS_ERROR: CORTEX_M4_0: GEL: File: C:\Users\Kyle Maiorana\Desktop\tirslk_maze_1_00_01\tirslk_maze_1_00_00\InputOutput\Debug\InputOutput.out: Load failed.
+
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2019-09-11 13:24:33.997
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@2e13fc2b): Status ERROR: com.ti.ccstudio.debug code=20003 File: C:\Users\Kyle Maiorana\Desktop\tirslk_maze_1_00_01\tirslk_maze_1_00_00\InputOutput\Debug\InputOutput.out: Load failed. null' resulted in an error.
+!SUBENTRY 1 com.ti.ccstudio.debug 4 20003 2019-09-11 13:24:33.997
+!MESSAGE File: C:\Users\Kyle Maiorana\Desktop\tirslk_maze_1_00_01\tirslk_maze_1_00_00\InputOutput\Debug\InputOutput.out: Load failed.
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-09-11 13:24:45.985
+!MESSAGE DS_ERROR: CS_DAP_0: Error connecting to the target: (Error -614 @ 0x0) The target indicates there is an error condition from a previous SWD  request. Clear the error the condition, and try the SWD request again. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-09-11 13:24:46.289
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -614 @ 0x0)
+The target indicates there is an error condition from a previous SWD 
+request. Clear the error the condition, and try the SWD request again.
+(Emulation package 8.2.0.00004)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-09-11 13:25:05.088
+!MESSAGE DS_ERROR: CS_DAP_0: Error connecting to the target: (Error -614 @ 0x0) The target indicates there is an error condition from a previous SWD  request. Clear the error the condition, and try the SWD request again. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-09-11 13:25:05.305
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -614 @ 0x0)
+The target indicates there is an error condition from a previous SWD 
+request. Clear the error the condition, and try the SWD request again.
+(Emulation package 8.2.0.00004)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-09-11 13:25:13.210
+!MESSAGE DS_ERROR: CS_DAP_0: Error connecting to the target: (Error -614 @ 0x0) The target indicates there is an error condition from a previous SWD  request. Clear the error the condition, and try the SWD request again. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-09-11 13:25:13.232
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -614 @ 0x0)
+The target indicates there is an error condition from a previous SWD 
+request. Clear the error the condition, and try the SWD request again.
+(Emulation package 8.2.0.00004)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-09-11 13:51:28.521
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -613 @ 0x0) The target indicates that it is busy.  Either try the SWD request  again, or abort the transaction. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-09-11 13:51:28.589
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-09-11 13:52:02.310
+!MESSAGE DS_ERROR: CS_DAP_0: Error connecting to the target: (Error -614 @ 0x0) The target indicates there is an error condition from a previous SWD  request. Clear the error the condition, and try the SWD request again. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-09-11 13:52:02.539
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -614 @ 0x0)
+The target indicates there is an error condition from a previous SWD 
+request. Clear the error the condition, and try the SWD request again.
+(Emulation package 8.2.0.00004)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-09-11 14:01:22.466
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-09-11 14:01:22.519
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+!SESSION 2019-09-18 12:55:30.642 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180611-0500
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 1 0 2019-09-18 12:55:37.010
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2019-09-18 12:55:37.014
+!MESSAGE debugServerDir=C:/ti/ccs910/ccs/ccs_base/DebugServer
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-09-18 12:55:55.068
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-09-18 12:55:55.082
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-09-18 12:55:55.085
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.ti.ccstudio.ui 1 0 2019-09-18 12:55:55.652
+!MESSAGE CCS IDE session started!
+	CCS build: 9.1.0.00010
+	CCS location: C:/ti/ccs910/ccs
+	Workspace location: C:/Users/Kyle Maiorana/Desktop/tirslk_maze_1_00_01/tirslk_maze_1_00_00
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-18 12:55:55.929
+!MESSAGE constructor
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-18 12:55:55.930
+!MESSAGE done with directories
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-18 12:55:55.930
+!MESSAGE loading ti_logger
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-18 12:55:55.932
+!MESSAGE Platform os: win32
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-18 12:55:55.933
+!MESSAGE loading cToolsIF
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-18 12:55:56.726
+!MESSAGE loading cTools
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-18 12:55:56.875
+!MESSAGE loading TraceFactory
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-18 12:55:57.087
+!MESSAGE loading sqlite3
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-18 12:55:57.228
+!MESSAGE loading CloudTrace
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-18 12:55:57.745
+!MESSAGE CloudTrace interface loaded
+!SESSION 2019-09-25 12:48:24.509 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180611-0500
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 1 0 2019-09-25 12:48:32.060
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2019-09-25 12:48:32.062
+!MESSAGE debugServerDir=C:/ti/ccs910/ccs/ccs_base/DebugServer
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-09-25 12:48:49.165
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-09-25 12:48:49.184
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-09-25 12:48:49.185
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.ti.ccstudio.ui 1 0 2019-09-25 12:48:49.871
+!MESSAGE CCS IDE session started!
+	CCS build: 9.1.0.00010
+	CCS location: C:/ti/ccs910/ccs
+	Workspace location: C:/Users/Kyle Maiorana/Desktop/tirslk_maze_1_00_01/tirslk_maze_1_00_00
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-25 12:48:50.224
+!MESSAGE constructor
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-25 12:48:50.226
+!MESSAGE done with directories
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-25 12:48:50.227
+!MESSAGE loading ti_logger
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-25 12:48:50.230
+!MESSAGE Platform os: win32
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-25 12:48:50.231
+!MESSAGE loading cToolsIF
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-25 12:48:51.538
+!MESSAGE loading cTools
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-25 12:48:51.686
+!MESSAGE loading TraceFactory
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-25 12:48:51.978
+!MESSAGE loading sqlite3
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-25 12:48:52.239
+!MESSAGE loading CloudTrace
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-25 12:48:52.898
+!MESSAGE CloudTrace interface loaded
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-09-25 12:49:46.768
+!MESSAGE DS_ERROR: CS_DAP_0: Error connecting to the target: (Error -260 @ 0x0) An attempt to connect to the XDS110 failed. The cause may be one or more of: no XDS110 is connected, invalid firmware update, invalid XDS110 serial number, or faulty USB cable. The firmware and serial number may be updated using the xdsdfu utility found in the .../ccs_base/common/uscif/xds110 directory of your installation. View the ReadMe.txt file there for instructions. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-09-25 12:49:47.085
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -260 @ 0x0)
+An attempt to connect to the XDS110 failed.
+The cause may be one or more of: no XDS110 is connected, invalid
+firmware update, invalid XDS110 serial number, or faulty USB
+cable. The firmware and serial number may be updated using the
+xdsdfu utility found in the .../ccs_base/common/uscif/xds110
+directory of your installation. View the ReadMe.txt file there
+for instructions.
+(Emulation package 8.2.0.00004)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-09-25 12:49:51.037
+!MESSAGE DS_ERROR: CS_DAP_0: Error connecting to the target: (Error -260 @ 0x0) An attempt to connect to the XDS110 failed. The cause may be one or more of: no XDS110 is connected, invalid firmware update, invalid XDS110 serial number, or faulty USB cable. The firmware and serial number may be updated using the xdsdfu utility found in the .../ccs_base/common/uscif/xds110 directory of your installation. View the ReadMe.txt file there for instructions. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-09-25 12:49:51.055
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -260 @ 0x0)
+An attempt to connect to the XDS110 failed.
+The cause may be one or more of: no XDS110 is connected, invalid
+firmware update, invalid XDS110 serial number, or faulty USB
+cable. The firmware and serial number may be updated using the
+xdsdfu utility found in the .../ccs_base/common/uscif/xds110
+directory of your installation. View the ReadMe.txt file there
+for instructions.
+(Emulation package 8.2.0.00004)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-09-25 12:49:59.324
+!MESSAGE DS_ERROR: CS_DAP_0: Error connecting to the target: (Error -260 @ 0x0) An attempt to connect to the XDS110 failed. The cause may be one or more of: no XDS110 is connected, invalid firmware update, invalid XDS110 serial number, or faulty USB cable. The firmware and serial number may be updated using the xdsdfu utility found in the .../ccs_base/common/uscif/xds110 directory of your installation. View the ReadMe.txt file there for instructions. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-09-25 12:49:59.336
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -260 @ 0x0)
+An attempt to connect to the XDS110 failed.
+The cause may be one or more of: no XDS110 is connected, invalid
+firmware update, invalid XDS110 serial number, or faulty USB
+cable. The firmware and serial number may be updated using the
+xdsdfu utility found in the .../ccs_base/common/uscif/xds110
+directory of your installation. View the ReadMe.txt file there
+for instructions.
+(Emulation package 8.2.0.00004)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-09-25 12:50:00.084
+!MESSAGE DS_ERROR: CS_DAP_0: Error connecting to the target: (Error -260 @ 0x0) An attempt to connect to the XDS110 failed. The cause may be one or more of: no XDS110 is connected, invalid firmware update, invalid XDS110 serial number, or faulty USB cable. The firmware and serial number may be updated using the xdsdfu utility found in the .../ccs_base/common/uscif/xds110 directory of your installation. View the ReadMe.txt file there for instructions. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-09-25 12:50:00.134
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -260 @ 0x0)
+An attempt to connect to the XDS110 failed.
+The cause may be one or more of: no XDS110 is connected, invalid
+firmware update, invalid XDS110 serial number, or faulty USB
+cable. The firmware and serial number may be updated using the
+xdsdfu utility found in the .../ccs_base/common/uscif/xds110
+directory of your installation. View the ReadMe.txt file there
+for instructions.
+(Emulation package 8.2.0.00004)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-09-25 12:50:00.758
+!MESSAGE DS_ERROR: CS_DAP_0: Error connecting to the target: (Error -260 @ 0x0) An attempt to connect to the XDS110 failed. The cause may be one or more of: no XDS110 is connected, invalid firmware update, invalid XDS110 serial number, or faulty USB cable. The firmware and serial number may be updated using the xdsdfu utility found in the .../ccs_base/common/uscif/xds110 directory of your installation. View the ReadMe.txt file there for instructions. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-09-25 12:50:00.769
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -260 @ 0x0)
+An attempt to connect to the XDS110 failed.
+The cause may be one or more of: no XDS110 is connected, invalid
+firmware update, invalid XDS110 serial number, or faulty USB
+cable. The firmware and serial number may be updated using the
+xdsdfu utility found in the .../ccs_base/common/uscif/xds110
+directory of your installation. View the ReadMe.txt file there
+for instructions.
+(Emulation package 8.2.0.00004)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-09-25 12:50:01.489
+!MESSAGE DS_ERROR: CS_DAP_0: Error connecting to the target: (Error -260 @ 0x0) An attempt to connect to the XDS110 failed. The cause may be one or more of: no XDS110 is connected, invalid firmware update, invalid XDS110 serial number, or faulty USB cable. The firmware and serial number may be updated using the xdsdfu utility found in the .../ccs_base/common/uscif/xds110 directory of your installation. View the ReadMe.txt file there for instructions. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-09-25 12:50:01.518
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -260 @ 0x0)
+An attempt to connect to the XDS110 failed.
+The cause may be one or more of: no XDS110 is connected, invalid
+firmware update, invalid XDS110 serial number, or faulty USB
+cable. The firmware and serial number may be updated using the
+xdsdfu utility found in the .../ccs_base/common/uscif/xds110
+directory of your installation. View the ReadMe.txt file there
+for instructions.
+(Emulation package 8.2.0.00004)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-09-25 14:03:47.517
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 8.2.0.00004) 
+
+!SESSION 2019-10-09 12:45:45.213 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180611-0500
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-10-09 12:45:58.771
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.ti.common.core 1 0 2019-10-09 12:45:58.902
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2019-10-09 12:45:58.903
+!MESSAGE debugServerDir=C:/ti/ccs910/ccs/ccs_base/DebugServer
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-09 12:46:13.418
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-09 12:46:13.428
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-09 12:46:13.429
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.ti.ccstudio.ui 1 0 2019-10-09 12:46:13.952
+!MESSAGE CCS IDE session started!
+	CCS build: 9.1.0.00010
+	CCS location: C:/ti/ccs910/ccs
+	Workspace location: C:/Users/Kyle Maiorana/Desktop/tirslk_maze_1_00_01/tirslk_maze_1_00_00
+
+!ENTRY com.ti.ccstudio.debug.server 4 214294189 2019-10-09 12:46:14.089
+!MESSAGE Unexpected CCS exit detected [9/25/19 12:48 PM]!!!
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-09 12:46:14.225
+!MESSAGE constructor
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-09 12:46:14.227
+!MESSAGE done with directories
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-09 12:46:14.229
+!MESSAGE loading ti_logger
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-09 12:46:14.232
+!MESSAGE Platform os: win32
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-09 12:46:14.233
+!MESSAGE loading cToolsIF
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-09 12:46:14.677
+!MESSAGE loading cTools
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-09 12:46:14.861
+!MESSAGE loading TraceFactory
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-09 12:46:15.034
+!MESSAGE loading sqlite3
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-09 12:46:15.229
+!MESSAGE loading CloudTrace
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-09 12:46:15.915
+!MESSAGE CloudTrace interface loaded
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-10-09 21:56:14.380
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-10-09 21:56:15.091
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+!SESSION 2019-10-16 12:49:17.834 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180611-0500
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 1 0 2019-10-16 12:49:22.138
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2019-10-16 12:49:22.144
+!MESSAGE debugServerDir=C:/ti/ccs910/ccs/ccs_base/DebugServer
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-16 12:49:36.027
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-16 12:49:36.043
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-16 12:49:36.045
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.cdt.ui 4 0 2019-10-16 12:49:37.204
+!MESSAGE Error in CDT UI during reconcile
+!STACK 1
+C Model Exception: C Model Status [Element Lab06_GPIOmain.c does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:484)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:580)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:62)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:635)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:362)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:78)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:63)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:87)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:73)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:349)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2019-10-16 12:49:37.217
+!MESSAGE Element Lab06_GPIOmain.c does not exist.
+
+!ENTRY com.ti.ccstudio.ui 1 0 2019-10-16 12:49:37.218
+!MESSAGE CCS IDE session started!
+	CCS build: 9.1.0.00010
+	CCS location: C:/ti/ccs910/ccs
+	Workspace location: C:/Users/Kyle Maiorana/Desktop/tirslk_maze_1_00_01/tirslk_maze_1_00_00
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-16 12:49:37.647
+!MESSAGE constructor
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-16 12:49:37.649
+!MESSAGE done with directories
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-16 12:49:37.650
+!MESSAGE loading ti_logger
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-16 12:49:37.652
+!MESSAGE Platform os: win32
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-16 12:49:37.653
+!MESSAGE loading cToolsIF
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-16 12:49:37.769
+!MESSAGE loading cTools
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-16 12:49:37.786
+!MESSAGE loading TraceFactory
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-16 12:49:37.795
+!MESSAGE loading sqlite3
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-16 12:49:37.815
+!MESSAGE loading CloudTrace
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-16 12:49:37.869
+!MESSAGE CloudTrace interface loaded
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-10-16 13:02:02.723
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-10-16 13:02:02.751
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-10-16 14:01:50.308
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-10-16 14:01:50.330
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+!SESSION 2019-10-23 12:48:51.279 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180611-0500
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 1 0 2019-10-23 12:49:20.777
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2019-10-23 12:49:20.779
+!MESSAGE debugServerDir=C:/ti/ccs910/ccs/ccs_base/DebugServer
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-23 12:49:36.989
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-23 12:49:37.012
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-23 12:49:37.013
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.ti.ccstudio.ui 1 0 2019-10-23 12:49:37.532
+!MESSAGE CCS IDE session started!
+	CCS build: 9.1.0.00010
+	CCS location: C:/ti/ccs910/ccs
+	Workspace location: C:/Users/Kyle Maiorana/Desktop/tirslk_maze_1_00_01/tirslk_maze_1_00_00
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-23 12:49:37.754
+!MESSAGE constructor
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-23 12:49:37.755
+!MESSAGE done with directories
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-23 12:49:37.756
+!MESSAGE loading ti_logger
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-23 12:49:37.758
+!MESSAGE Platform os: win32
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-23 12:49:37.759
+!MESSAGE loading cToolsIF
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-23 12:49:37.766
+!MESSAGE loading cTools
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-23 12:49:37.776
+!MESSAGE loading TraceFactory
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-23 12:49:37.783
+!MESSAGE loading sqlite3
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-23 12:49:37.848
+!MESSAGE loading CloudTrace
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-23 12:49:37.891
+!MESSAGE CloudTrace interface loaded
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-10-23 13:21:20.033
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-10-23 13:21:20.168
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+!SESSION 2019-10-30 13:00:10.188 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180611-0500
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 1 0 2019-10-30 13:00:15.780
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2019-10-30 13:00:15.782
+!MESSAGE debugServerDir=C:/ti/ccs910/ccs/ccs_base/DebugServer
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-30 13:00:28.216
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-30 13:00:28.234
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-30 13:00:28.235
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.ti.ccstudio.ui 1 0 2019-10-30 13:00:29.051
+!MESSAGE CCS IDE session started!
+	CCS build: 9.1.0.00010
+	CCS location: C:/ti/ccs910/ccs
+	Workspace location: C:/Users/Kyle Maiorana/Desktop/tirslk_maze_1_00_01/tirslk_maze_1_00_00
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-30 13:00:29.410
+!MESSAGE constructor
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-30 13:00:29.411
+!MESSAGE done with directories
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-30 13:00:29.413
+!MESSAGE loading ti_logger
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-30 13:00:29.414
+!MESSAGE Platform os: win32
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-30 13:00:29.416
+!MESSAGE loading cToolsIF
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-30 13:00:29.431
+!MESSAGE loading cTools
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-30 13:00:29.447
+!MESSAGE loading TraceFactory
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-30 13:00:29.458
+!MESSAGE loading sqlite3
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-30 13:00:29.470
+!MESSAGE loading CloudTrace
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-30 13:00:29.621
+!MESSAGE CloudTrace interface loaded
+
+!ENTRY com.ti.ccstudio.memory.ui.view.rendering 4 5013 2019-10-30 13:31:34.631
+!MESSAGE Failed to paint.
+!STACK 0
+java.lang.NullPointerException
+	at com.ti.ccstudio.debug.memoryserver.MemoryServer.getMaxAddressBusWidth(MemoryServer.java:423)
+	at com.ti.ccstudio.debug.ui.DebugUIUtils.getAddressSizeInBits(DebugUIUtils.java:318)
+	at com.ti.ccstudio.debug.ui.memoryView.rendering.MemoryRendering.getAddressSize(MemoryRendering.java:1719)
+	at org.eclipse.cdt.debug.ui.memory.traditional.Rendering.getAddressBytes(Rendering.java:1594)
+	at org.eclipse.cdt.debug.ui.memory.traditional.Rendering.getAddressString(Rendering.java:1583)
+	at com.ti.ccstudio.debug.ui.memoryView.rendering.MemoryAddressPane.paint(MemoryAddressPane.java:253)
+	at org.eclipse.cdt.debug.ui.memory.traditional.AbstractPane$AbstractPanePaintListener.paintControl(AbstractPane.java:293)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:231)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4118)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1076)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1561)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4822)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:345)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4765)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2303)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3532)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1170)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:667)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+!SESSION 2019-10-31 22:52:35.015 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180611-0500
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 1 0 2019-10-31 22:52:38.422
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2019-10-31 22:52:38.423
+!MESSAGE debugServerDir=C:/ti/ccs910/ccs/ccs_base/DebugServer
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-31 22:52:47.617
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-31 22:52:47.630
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-31 22:52:47.631
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.ti.ccstudio.ui 1 0 2019-10-31 22:52:48.092
+!MESSAGE CCS IDE session started!
+	CCS build: 9.1.0.00010
+	CCS location: C:/ti/ccs910/ccs
+	Workspace location: C:/Users/Kyle Maiorana/Desktop/tirslk_maze_1_00_01/tirslk_maze_1_00_00
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-31 22:52:48.328
+!MESSAGE constructor
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-31 22:52:48.329
+!MESSAGE done with directories
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-31 22:52:48.329
+!MESSAGE loading ti_logger
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-31 22:52:48.331
+!MESSAGE Platform os: win32
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-31 22:52:48.332
+!MESSAGE loading cToolsIF
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-31 22:52:48.338
+!MESSAGE loading cTools
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-31 22:52:48.348
+!MESSAGE loading TraceFactory
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-31 22:52:48.355
+!MESSAGE loading sqlite3
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-31 22:52:48.363
+!MESSAGE loading CloudTrace
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-31 22:52:48.444
+!MESSAGE CloudTrace interface loaded
+!SESSION 2019-11-06 12:51:55.278 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180611-0500
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 1 0 2019-11-06 12:52:17.616
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2019-11-06 12:52:17.618
+!MESSAGE debugServerDir=C:/ti/ccs910/ccs/ccs_base/DebugServer
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-11-06 12:52:36.286
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-11-06 12:52:36.308
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-11-06 12:52:36.312
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.ti.ccstudio.ui 1 0 2019-11-06 12:52:36.848
+!MESSAGE CCS IDE session started!
+	CCS build: 9.1.0.00010
+	CCS location: C:/ti/ccs910/ccs
+	Workspace location: C:/Users/Kyle Maiorana/Desktop/tirslk_maze_1_00_01/tirslk_maze_1_00_00
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-06 12:52:37.102
+!MESSAGE constructor
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-06 12:52:37.103
+!MESSAGE done with directories
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-06 12:52:37.104
+!MESSAGE loading ti_logger
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-06 12:52:37.107
+!MESSAGE Platform os: win32
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-06 12:52:37.108
+!MESSAGE loading cToolsIF
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-06 12:52:37.266
+!MESSAGE loading cTools
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-06 12:52:37.478
+!MESSAGE loading TraceFactory
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-06 12:52:37.605
+!MESSAGE loading sqlite3
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-06 12:52:37.765
+!MESSAGE loading CloudTrace
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-06 12:52:38.338
+!MESSAGE CloudTrace interface loaded
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-06 13:01:32.963
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-06 13:02:40.452
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-06 13:04:37.074
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-06 13:05:48.653
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-06 13:05:48.711
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-06 13:40:15.821
+!MESSAGE DS_ERROR: CORTEX_M4_0: GEL: Encountered a problem loading file: C:\Users\Kyle Maiorana\Desktop\tirslk_maze_1_00_01\tirslk_maze_1_00_00\Lab12_Motors\Debug\Lab12_Motors.out Could not open file
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-06 13:42:16.792
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-06 13:42:16.797
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-06 13:44:32.504
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -614 @ 0x0) The target indicates there is an error condition from a previous SWD  request. Clear the error the condition, and try the SWD request again. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-06 13:44:32.551
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-06 13:46:42.880
+!MESSAGE DS_ERROR: CS_DAP_0: Error connecting to the target: (Error -614 @ 0x0) The target indicates there is an error condition from a previous SWD  request. Clear the error the condition, and try the SWD request again. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-06 13:46:43.296
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -614 @ 0x0)
+The target indicates there is an error condition from a previous SWD 
+request. Clear the error the condition, and try the SWD request again.
+(Emulation package 8.2.0.00004)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-06 13:46:54.029
+!MESSAGE DS_ERROR: CS_DAP_0: Error connecting to the target: (Error -614 @ 0x0) The target indicates there is an error condition from a previous SWD  request. Clear the error the condition, and try the SWD request again. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-06 13:46:54.659
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -614 @ 0x0)
+The target indicates there is an error condition from a previous SWD 
+request. Clear the error the condition, and try the SWD request again.
+(Emulation package 8.2.0.00004)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-06 13:46:56.645
+!MESSAGE DS_ERROR: CS_DAP_0: Error connecting to the target: (Error -614 @ 0x0) The target indicates there is an error condition from a previous SWD  request. Clear the error the condition, and try the SWD request again. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-06 13:46:56.693
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -614 @ 0x0)
+The target indicates there is an error condition from a previous SWD 
+request. Clear the error the condition, and try the SWD request again.
+(Emulation package 8.2.0.00004)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-06 13:47:07.225
+!MESSAGE DS_ERROR: CS_DAP_0: Error connecting to the target: (Error -614 @ 0x0) The target indicates there is an error condition from a previous SWD  request. Clear the error the condition, and try the SWD request again. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-06 13:47:07.676
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -614 @ 0x0)
+The target indicates there is an error condition from a previous SWD 
+request. Clear the error the condition, and try the SWD request again.
+(Emulation package 8.2.0.00004)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-06 13:51:00.723
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-06 13:51:00.763
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+!SESSION 2019-11-13 12:41:59.020 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180611-0500
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 1 0 2019-11-13 12:43:01.385
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2019-11-13 12:43:01.388
+!MESSAGE debugServerDir=C:/ti/ccs910/ccs/ccs_base/DebugServer
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-11-13 12:43:21.744
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-11-13 12:43:21.763
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-11-13 12:43:21.764
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.ti.ccstudio.ui 1 0 2019-11-13 12:43:22.482
+!MESSAGE CCS IDE session started!
+	CCS build: 9.1.0.00010
+	CCS location: C:/ti/ccs910/ccs
+	Workspace location: C:/Users/Kyle Maiorana/Desktop/tirslk_maze_1_00_01/tirslk_maze_1_00_00
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-13 12:43:24.648
+!MESSAGE constructor
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-13 12:43:24.649
+!MESSAGE done with directories
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-13 12:43:24.649
+!MESSAGE loading ti_logger
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-13 12:43:24.651
+!MESSAGE Platform os: win32
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-13 12:43:24.652
+!MESSAGE loading cToolsIF
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-13 12:43:25.040
+!MESSAGE loading cTools
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-13 12:43:25.269
+!MESSAGE loading TraceFactory
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-13 12:43:25.625
+!MESSAGE loading sqlite3
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-13 12:43:25.991
+!MESSAGE loading CloudTrace
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-13 12:43:27.123
+!MESSAGE CloudTrace interface loaded
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-13 12:58:49.773
+!MESSAGE DS_ERROR: CORTEX_M4_0: GEL: Encountered a problem loading file: C:\Users\Kyle Maiorana\Desktop\tirslk_maze_1_00_01\tirslk_maze_1_00_00\Lab12_Motors\Debug\Lab12_Motors.out Could not open file
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-13 13:00:15.593
+!MESSAGE DS_ERROR: CORTEX_M4_0: GEL: Encountered a problem loading file: C:\Users\Kyle Maiorana\Desktop\tirslk_maze_1_00_01\tirslk_maze_1_00_00\Lab12_Motors\Debug\Lab12_Motors.out Could not open file
+
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-13 13:03:09.544
+!MESSAGE Indexed 'Temp' (3 sources, 8 headers) in 0.641 sec: 2,063 declarations; 3,860 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-13 13:03:48.477
+!MESSAGE DS_ERROR: CORTEX_M4_0: GEL: Encountered a problem loading file: C:\Users\Kyle Maiorana\Desktop\tirslk_maze_1_00_01\tirslk_maze_1_00_00\Lab12_Motors\Debug\Lab12_Motors.out Could not open file
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-13 13:09:10.830
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -613 @ 0x0) The target indicates that it is busy.  Either try the SWD request  again, or abort the transaction. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-13 13:09:10.856
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY org.eclipse.core.jobs 2 2 2019-11-13 13:09:50.906
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.debug.internal.ui.DebugUIPlugin$8
+
+!ENTRY org.eclipse.core.jobs 2 2 2019-11-13 13:09:50.907
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.debug.internal.ui.DebugUIPlugin$8
+
+!ENTRY org.eclipse.core.jobs 2 2 2019-11-13 13:09:50.907
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.debug.internal.ui.DebugUIPlugin$8
+
+!ENTRY org.eclipse.core.jobs 2 2 2019-11-13 13:09:50.907
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.debug.internal.ui.DebugUIPlugin$8
+!SESSION 2019-11-13 13:09:57.338 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180611-0500
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 1 0 2019-11-13 13:10:06.276
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2019-11-13 13:10:06.276
+!MESSAGE debugServerDir=C:/ti/ccs910/ccs/ccs_base/DebugServer
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-11-13 13:10:16.966
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-11-13 13:10:16.981
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-11-13 13:10:16.982
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.ti.ccstudio.ui 1 0 2019-11-13 13:10:17.447
+!MESSAGE CCS IDE session started!
+	CCS build: 9.1.0.00010
+	CCS location: C:/ti/ccs910/ccs
+	Workspace location: C:/Users/Kyle Maiorana/Desktop/tirslk_maze_1_00_01/tirslk_maze_1_00_00
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-13 13:10:17.744
+!MESSAGE constructor
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-13 13:10:17.745
+!MESSAGE done with directories
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-13 13:10:17.746
+!MESSAGE loading ti_logger
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-13 13:10:17.749
+!MESSAGE Platform os: win32
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-13 13:10:17.750
+!MESSAGE loading cToolsIF
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-13 13:10:17.755
+!MESSAGE loading cTools
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-13 13:10:17.759
+!MESSAGE loading TraceFactory
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-13 13:10:17.762
+!MESSAGE loading sqlite3
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-13 13:10:17.766
+!MESSAGE loading CloudTrace
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-13 13:10:17.781
+!MESSAGE CloudTrace interface loaded
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-13 13:13:31.558
+!MESSAGE DS_ERROR: CS_DAP_0: Error connecting to the target: (Error -614 @ 0x0) The target indicates there is an error condition from a previous SWD  request. Clear the error the condition, and try the SWD request again. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-13 13:13:32.094
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -614 @ 0x0)
+The target indicates there is an error condition from a previous SWD 
+request. Clear the error the condition, and try the SWD request again.
+(Emulation package 8.2.0.00004)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-13 13:13:56.621
+!MESSAGE DS_ERROR: CS_DAP_0: Error connecting to the target: (Error -614 @ 0x0) The target indicates there is an error condition from a previous SWD  request. Clear the error the condition, and try the SWD request again. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-13 13:13:57.127
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -614 @ 0x0)
+The target indicates there is an error condition from a previous SWD 
+request. Clear the error the condition, and try the SWD request again.
+(Emulation package 8.2.0.00004)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-13 13:19:12.230
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -613 @ 0x0) The target indicates that it is busy.  Either try the SWD request  again, or abort the transaction. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-13 13:19:12.336
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-13 13:19:22.357
+!MESSAGE DS_ERROR: CS_DAP_0: Error connecting to the target: (Error -614 @ 0x0) The target indicates there is an error condition from a previous SWD  request. Clear the error the condition, and try the SWD request again. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-13 13:19:23.067
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -614 @ 0x0)
+The target indicates there is an error condition from a previous SWD 
+request. Clear the error the condition, and try the SWD request again.
+(Emulation package 8.2.0.00004)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-13 13:19:26.375
+!MESSAGE DS_ERROR: CS_DAP_0: Error connecting to the target: (Error -614 @ 0x0) The target indicates there is an error condition from a previous SWD  request. Clear the error the condition, and try the SWD request again. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-13 13:19:26.411
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -614 @ 0x0)
+The target indicates there is an error condition from a previous SWD 
+request. Clear the error the condition, and try the SWD request again.
+(Emulation package 8.2.0.00004)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-13 13:19:30.426
+!MESSAGE DS_ERROR: CS_DAP_0: Error connecting to the target: (Error -614 @ 0x0) The target indicates there is an error condition from a previous SWD  request. Clear the error the condition, and try the SWD request again. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-13 13:19:30.448
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -614 @ 0x0)
+The target indicates there is an error condition from a previous SWD 
+request. Clear the error the condition, and try the SWD request again.
+(Emulation package 8.2.0.00004)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-13 13:19:40.021
+!MESSAGE DS_ERROR: CS_DAP_0: Error connecting to the target: (Error -614 @ 0x0) The target indicates there is an error condition from a previous SWD  request. Clear the error the condition, and try the SWD request again. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-13 13:19:40.443
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -614 @ 0x0)
+The target indicates there is an error condition from a previous SWD 
+request. Clear the error the condition, and try the SWD request again.
+(Emulation package 8.2.0.00004)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-13 13:20:33.291
+!MESSAGE DS_ERROR: CS_DAP_0: Error connecting to the target: (Error -614 @ 0x0) The target indicates there is an error condition from a previous SWD  request. Clear the error the condition, and try the SWD request again. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-13 13:20:33.581
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -614 @ 0x0)
+The target indicates there is an error condition from a previous SWD 
+request. Clear the error the condition, and try the SWD request again.
+(Emulation package 8.2.0.00004)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-13 13:22:34.569
+!MESSAGE DS_ERROR: CORTEX_M4_0: GEL: Encountered a problem loading file: C:\Users\Kyle Maiorana\Desktop\tirslk_maze_1_00_01\tirslk_maze_1_00_00\Lab12_Motors\Debug\Lab12_Motors.out Could not open file
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-13 13:23:29.815
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-13 13:23:29.857
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-13 13:33:54.731
+!MESSAGE DS_ERROR: CORTEX_M4_0: GEL: Encountered a problem loading file: C:\Users\Kyle Maiorana\Desktop\tirslk_maze_1_00_01\tirslk_maze_1_00_00\Lab12_Motors\Debug\Lab12_Motors.out Could not open file
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-13 13:43:56.224
+!MESSAGE DS_ERROR: CORTEX_M4_0: GEL: Encountered a problem loading file: C:\Users\Kyle Maiorana\Desktop\tirslk_maze_1_00_01\tirslk_maze_1_00_00\Lab12_Motors\Debug\Lab12_Motors.out Could not open file
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-13 13:53:27.333
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-13 13:53:27.370
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-13 14:06:19.638
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-13 14:06:19.679
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-13 14:09:02.893
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-13 14:09:02.939
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+!SESSION 2019-11-18 14:32:45.745 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180611-0500
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 1 0 2019-11-18 14:32:51.300
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2019-11-18 14:32:51.304
+!MESSAGE debugServerDir=C:/ti/ccs910/ccs/ccs_base/DebugServer
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-11-18 14:33:07.315
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-11-18 14:33:07.335
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-11-18 14:33:07.337
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.ti.ccstudio.ui 1 0 2019-11-18 14:33:08.089
+!MESSAGE CCS IDE session started!
+	CCS build: 9.1.0.00010
+	CCS location: C:/ti/ccs910/ccs
+	Workspace location: C:/Users/Kyle Maiorana/Desktop/tirslk_maze_1_00_01/tirslk_maze_1_00_00
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-18 14:33:08.343
+!MESSAGE constructor
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-18 14:33:08.344
+!MESSAGE done with directories
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-18 14:33:08.346
+!MESSAGE loading ti_logger
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-18 14:33:08.349
+!MESSAGE Platform os: win32
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-18 14:33:08.350
+!MESSAGE loading cToolsIF
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-18 14:33:08.357
+!MESSAGE loading cTools
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-18 14:33:08.362
+!MESSAGE loading TraceFactory
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-18 14:33:08.366
+!MESSAGE loading sqlite3
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-18 14:33:08.370
+!MESSAGE loading CloudTrace
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-18 14:33:08.386
+!MESSAGE CloudTrace interface loaded
+!SESSION 2019-11-20 13:08:57.629 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180611-0500
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 1 0 2019-11-20 13:09:01.810
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2019-11-20 13:09:01.813
+!MESSAGE debugServerDir=C:/ti/ccs910/ccs/ccs_base/DebugServer
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-11-20 13:09:19.141
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-11-20 13:09:19.158
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-11-20 13:09:19.160
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.ti.ccstudio.ui 1 0 2019-11-20 13:09:19.792
+!MESSAGE CCS IDE session started!
+	CCS build: 9.1.0.00010
+	CCS location: C:/ti/ccs910/ccs
+	Workspace location: C:/Users/Kyle Maiorana/Desktop/tirslk_maze_1_00_01/tirslk_maze_1_00_00
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-20 13:09:20.192
+!MESSAGE constructor
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-20 13:09:20.193
+!MESSAGE done with directories
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-20 13:09:20.194
+!MESSAGE loading ti_logger
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-20 13:09:20.197
+!MESSAGE Platform os: win32
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-20 13:09:20.198
+!MESSAGE loading cToolsIF
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-20 13:09:20.299
+!MESSAGE loading cTools
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-20 13:09:20.442
+!MESSAGE loading TraceFactory
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-20 13:09:20.609
+!MESSAGE loading sqlite3
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-20 13:09:20.721
+!MESSAGE loading CloudTrace
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-11-20 13:09:21.367
+!MESSAGE CloudTrace interface loaded
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-20 13:10:54.008
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-20 13:10:54.043
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-20 13:13:37.825
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-20 13:13:37.856
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-20 13:16:08.932
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-20 13:16:08.950
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-20 13:18:09.738
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-20 13:18:09.754
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-20 13:22:58.353
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-20 13:22:58.377
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-20 13:29:26.542
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-20 13:29:26.561
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-20 13:30:52.959
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-20 13:30:52.980
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-20 13:34:46.261
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-20 13:35:07.382
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-20 13:35:07.396
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-20 13:38:07.825
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-20 13:38:07.841
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-20 13:39:22.063
+!MESSAGE DS_ERROR: CORTEX_M4_0: JTAG Communication Error: (Error -261 @ 0x0) Invalid response was received from the XDS110. (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-20 13:39:22.081
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
